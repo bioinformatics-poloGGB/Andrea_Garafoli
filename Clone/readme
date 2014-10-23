@@ -1,11 +1,7 @@
-VcfPazP.rb: legge e fa il parser dei file .VCF e crea una matrice con righe= mutazione, colonne= paziente.
-		1 se il paziente Y ha la mutazione X, 0 viceversa
+VcfPazP.rb: legge e fa il parser dei file .VCF e crea una matrice con righe= mutazione, colonne= paziente. 1 se il paziente Y ha la mutazione X, 0 viceversa
 
-inc.rb: filtra tutte le mutazioni senza cross reference nella lista delle frequenze sia nella matrice 
-		che nella lista delle frequenze (in questa elimina anche le colonne del cromosoma/locus)
+inc.rb: filtra tutte le mutazioni senza cross reference nella lista delle frequenze sia nella matrice che nella lista delle frequenze (in questa elimina anche le colonne del cromosoma/locus)
 
-fr.rb: legge la lista delle frequenze (senza crom/loc) e passa dal formato a/b ad un numero float
-		con precisione fino al 5° numero dopo la virgola
+fr.rb: legge la lista delle frequenze (senza crom/loc) e passa dal formato a/b ad un numero float con precisione fino al 5° numero dopo la virgola
 
-eli.rb: elimina le mutazioni presenti nel paziente sano sia dalla matrice che nella lista delle frequenze
-		NB: i file vanno comunque salvati con Excel/Calc
+eli.rb: elimina le mutazioni presenti nel paziente sano sia dalla matrice che nella lista delle frequenze NB: i file vanno comunque salvati con Excel/Calc
